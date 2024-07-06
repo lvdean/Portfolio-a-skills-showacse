@@ -1,0 +1,47 @@
+.stlucia{
+  height: 300px;
+  width: 200%;
+  margin-top: 50px;
+  background-image: url(../Images/st\ Lucia.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  opacity: 30%;
+}
+h1 {
+  display: inline-block;
+  font-size: 48px;
+  color: purple
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 8px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: aquamarine;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+  }
+  
+  li {
+    display: inline;
+    border: 2px;
+    
+  }
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+p {
+  font-size: 100%;
+  font-family: cursive;
+  color: darkcyan;
+
+}
+
