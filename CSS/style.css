@@ -1,47 +1,99 @@
-.stlucia{
-  height: 300px;
+/*.stlucia{
+  height: 400px;
   width: 200%;
-  margin-top: 50px;
+  margin: 0px;
   background-image: url(../Images/st\ Lucia.jpg);
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
-  opacity: 30%;
+}*/
+
+.head {
+  height: 600px;
+  width: 200%;
+  margin: 0%;
 }
-h1 {
-  display: inline-block;
-  font-size: 48px;
-  color: purple
-   
+#stlucia {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 500px;
+  opacity: 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../Images/st\ Lucia.jpg);
+  background-position: center;
 }
 
-ul {
+
+.emoji { 
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 4px solid #000000;
+  position: relative;
+
+}
+
+
+.head {
+  display: block;
+  color: black;
+  text-align: center;
+  text-overflow: ellipsis;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+.head h1 {
+  font-size: 60px;
+  position: absolute;
+}
+
+.menu {
     list-style-type: none;
     margin: 8px;
     padding: 10px;
     font-size: 30px;
-    background-color: aquamarine;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
+    justify-content: space-between;
+    text-align: center;
     
   }
   
   li {
+    padding: 10px;
     display: inline;
-    border: 2px;
+    
     
   }
 
 main {
   display: flex;
   flex-wrap: wrap;
+  margin:0
+
 
 }
 
 p {
-  font-size: 100%;
+  font-size: 20px;
   font-family: cursive;
-  color: darkcyan;
+  color:#000000;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  top: 250px;
+  
 
 }
-
+nav {
+  text-align: end;
+  position: relative;
+   bottom: -280px;
+  background-color: aquamarine;
+  height: 70px;
+  border-style: solid;
+  border-width: 2px;
+  display: inline-flex;
+}
